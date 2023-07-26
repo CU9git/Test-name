@@ -1,0 +1,6 @@
+<input type="text" value="hi" id="mytext">
+<div id="mydiv">...</div>
+<input type="button" value="in-out" onclick="{
+myvalue=document.getelementbyid('mytext').value
+document.getelementbyid('mydiv')innexHTML=myvalue
+}">
